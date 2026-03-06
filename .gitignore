@@ -1,0 +1,59 @@
+# ─────────────────────────────────────────────
+#  Enchanted Climber — .gitignore
+# ─────────────────────────────────────────────
+
+# ── Build output ──────────────────────────────
+build/
+out/
+cmake-build-*/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.o
+*.a
+*.lib
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# ── VS / VS Code ──────────────────────────────
+.vs/
+.vscode/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.sdf
+*.opensdf
+*.aps
+ipch/
+x64/
+Debug/
+Release/
+
+# ── Save data (runtime generated) ─────────────
+saves/
+*.json.bak
+
+# ── OS junk ───────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────
+*.log
+
+# ── External SDL libraries ────────────────────
+# Comment these out if you WANT to commit SDL
+# (useful if teammates don't install separately)
+# external/
+
+# ── Assets — keep everything tracked ─────────
+# (backgrounds, sprites, audio, fonts all committed)
+# Only exclude large generated temp files if any
+*.tmp
