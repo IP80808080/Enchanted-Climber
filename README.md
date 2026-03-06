@@ -87,7 +87,7 @@ external/
 
 ```bash
 # Clone
-[git clone https://github.com/YOUR_USERNAME/enchanted-climber.git](https://github.com/IP80808080/Enchanted-Climber)
+https://github.com/IP80808080/Enchanted-Climber.git
 cd enchanted-climber
 
 # Configure & build (Visual Studio)
