@@ -87,7 +87,7 @@ external/
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/enchanted-climber.git
+[git clone https://github.com/YOUR_USERNAME/enchanted-climber.git](https://github.com/IP80808080/Enchanted-Climber)
 cd enchanted-climber
 
 # Configure & build (Visual Studio)
@@ -144,4 +144,4 @@ Player progress is saved to `saves/save.json` at runtime. This file is git-ignor
 
 ## 📜 License
 
-Academic project — CDAC IACSD. Not for redistribution.
+Hobby project — Not for redistribution.
